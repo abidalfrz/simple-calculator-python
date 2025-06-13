@@ -12,7 +12,7 @@ A minimal command-line calculator written in Python. Supports basic addition and
 
 - Python 3.x
 
-  you can check by running:
+  you can check your python version by running this on your terminal:
   ```sh
   python--version
   ```
