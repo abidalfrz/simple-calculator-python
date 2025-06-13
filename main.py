@@ -13,6 +13,7 @@ def mul(x, y):
     return x * y
 
 def main():
+    """Main function to run the calculator."""
     print("-"*10,"Simple Calculator", "-"*10)
     print("Select option:")
     print("1. Addition")
