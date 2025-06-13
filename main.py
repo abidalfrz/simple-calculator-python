@@ -8,12 +8,17 @@ def sub(x, y):
     """Return the difference of x and y."""
     return x - y
 
+def mul(x, y):
+    """Return the product of x and y."""
+    return x * y
+
 def main():
     print("-"*10,"Simple Calculator", "-"*10)
     print("Select option:")
     print("1. Addition")
     print("2. Subtraction")
-    choice = input("Enter choice (1/2): ")
+    print("3. Multiplication")
+    choice = input("Enter choice (1/2/3): ")
     if choice in ('1', '2'):
         a = int(input("Enter first number: "))
         b = int(input("Enter second number: "))
@@ -22,6 +27,8 @@ def main():
             print(f"Result = {add(a, b)}")
         elif choice == '2':
             print(f"Result = {sub(a, b)}")
+        elif choice == '3':
+            print(f"Result = {mul(a, b)}")
     else:
         print("Invalid Input!")
 
