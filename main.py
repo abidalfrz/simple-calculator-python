@@ -39,7 +39,7 @@ def main():
         elif choice == '3':
             print(f"Result = {mul(a, b)}")
         elif choice == '4':
-            print(f"Hasil2 = {div(a, b)}")
+            print(f"Result = {div(a, b)}")
 
     else:
         print("Invalid Input!")
