@@ -15,7 +15,7 @@ A minimal command-line calculator written in Python. Supports basic addition and
 
   you can check your python version by running this on your terminal:
   ```sh
-  python--version
+  python --version
   ```
 
 ## Usage
