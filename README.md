@@ -7,6 +7,7 @@ A minimal command-line calculator written in Python. Supports basic addition and
 - Addition of two numbers
 - Subtraction of two numbers
 - Multiplication of two numbers
+- Division of two numbers
 
 ## Requirements
 
@@ -14,7 +15,7 @@ A minimal command-line calculator written in Python. Supports basic addition and
 
   you can check your python version by running this on your terminal:
   ```sh
-  python--version
+  python --version
   ```
 
 ## Usage
@@ -36,8 +37,9 @@ A minimal command-line calculator written in Python. Supports basic addition and
 Select option:
 1. Addition
 2. Subtraction
-2. Multiplication
-Enter choice (1/2/3): 1
+3. Multiplication
+4. Division
+Enter choice (1/2/3/4): 1
 Enter first numbers: 5
 Enter second numbers: 3
 Result = 8
