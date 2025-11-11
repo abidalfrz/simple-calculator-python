@@ -19,6 +19,10 @@ def div(x, y):
     except ZeroDivisionError:
         return "Error! Division by zero is not allowed."
 
+def power(x, y):
+    """Return x raised to the power of y."""
+    return x ** y
+
 def main():
     """Main function to run the calculator."""
     print("-"*10,"Simple Calculator", "-"*10)
